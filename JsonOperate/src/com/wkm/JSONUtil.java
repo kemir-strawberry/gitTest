@@ -55,7 +55,7 @@ public class JSONUtil {
 		String mapStr = JSON.toJSONString(result);
 		
 		System.out.println(mapStr);
-		
+		System.out.println(mapStr);
 		//JSONObject jsonObject = new JSONObject(result);
 		
 		JSONObject jsonObject = JSONObject.parseObject(mapStr);
