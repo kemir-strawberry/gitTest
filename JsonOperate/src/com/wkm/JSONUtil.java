@@ -36,10 +36,10 @@ public class JSONUtil {
 			
 		 }*/
 		 
-		 
+		 //杩欐槸鎴戝湪鏈嶅姟鍣ㄤ笂闅忎究鍐欑殑
 		 Map<String, Object> result = new HashMap<>();
 		 result.put("code", 2000);
-		 result.put("message", "操作成功");
+		 result.put("message", "虏脵脳梅鲁脡鹿娄");
 		 
 		 Map<String, Object> resMap = new HashMap<>();
 		 resMap.put("id", "12345667");
@@ -47,7 +47,7 @@ public class JSONUtil {
 		 
 		 Map<String, Object> dataMap = new HashMap<>();
 		 dataMap.put("statusCode", 6000);
-		 dataMap.put("message", "成功");
+		 dataMap.put("message", "鲁脡鹿娄");
 		 
 		 resMap.put("data", dataMap);
 		 result.put("result", resMap);
